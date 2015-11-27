@@ -11,9 +11,9 @@ public class NewBehaviourScript : MonoBehaviour {
     public GameObject playLocation;
     public GameObject soccerLocation;
 	public GameObject[] aliveEnemies;
+	public bool change = false;
 	public GameObject[] enemyList = new GameObject[4];
 	public GameObject darkEnemy;
-	public bool change = false;
 	private int enemyType;
 	public Transform temp;
 	public GameObject enemySpawn1;
@@ -132,12 +132,12 @@ public class NewBehaviourScript : MonoBehaviour {
                 powerUp = false;
                 spawn = true;
                 powerAvailable = false;
-				change = false;
 				changeEnemyDark();
 				GameObject newEnemy = Instantiate(darkEnemy, enemySpawn1.transform.position, enemySpawn1.transform.rotation) as GameObject;
 				GameObject newEnemy1 = Instantiate(darkEnemy, enemySpawn2.transform.position, enemySpawn2.transform.rotation) as GameObject;
 				GameObject newEnemy2 = Instantiate(darkEnemy, enemySpawn3.transform.position, enemySpawn3.transform.rotation) as GameObject;
 				GameObject newEnemy3 = Instantiate(darkEnemy, enemySpawn4.transform.position, enemySpawn4.transform.rotation) as GameObject;
+				change = false;
             }
         }
 
@@ -180,5 +180,4 @@ public class NewBehaviourScript : MonoBehaviour {
 			GameObject newEnemy = Instantiate(darkEnemy, temp.transform.position, temp.transform.rotation) as GameObject;
 		}
 	}
-	
 }

@@ -23,9 +23,7 @@ public class EnemyMove : MonoBehaviour {
 			{
 				target = playerTarget[i].gameObject.transform;
 			}
-			i++;
 		}
-        //target = GameObject.FindWithTag("Player").transform;
         //movementdirection = 0;
 	}
 	
