@@ -16,7 +16,7 @@ public class EnemyMove : MonoBehaviour {
 	void Start () {
         myTransform = transform;
 		playerTarget = GameObject.FindGameObjectsWithTag ("Player");
-		playerChoice = Random.Range (0, 1);
+		playerChoice = Random.Range (0, playerTarget.Length);
 		for (int i = 0; i < playerTarget.Length; i++) 
 		{
 			if (playerChoice == i)
