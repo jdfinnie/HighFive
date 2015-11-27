@@ -180,4 +180,5 @@ public class NewBehaviourScript : MonoBehaviour {
 			GameObject newEnemy = Instantiate(darkEnemy, temp.transform.position, temp.transform.rotation) as GameObject;
 		}
 	}
+	
 }

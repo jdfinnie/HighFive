@@ -5,6 +5,8 @@ public class EnemyMove : MonoBehaviour {
 
     public Transform target;
     public GameObject targett;
+	public GameObject[] playerTarget;
+	public int playerChoice;
     public int moveSpeed = 5;
     public int rotationSpeed = 3;
 
@@ -13,7 +15,17 @@ public class EnemyMove : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         myTransform = transform;
-        target = GameObject.FindWithTag("Player").transform;
+		playerTarget = GameObject.FindGameObjectsWithTag ("Player");
+		playerChoice = Random.Range (0, 1);
+		for (int i = 0; i < playerTarget.Length; i++) 
+		{
+			if (playerChoice == i)
+			{
+				target = playerTarget[i].gameObject.transform;
+			}
+			i++;
+		}
+        //target = GameObject.FindWithTag("Player").transform;
         //movementdirection = 0;
 	}
 	
