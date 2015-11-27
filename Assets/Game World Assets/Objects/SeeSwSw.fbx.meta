@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: d651e8799222ecf4280a285665d82304
+timeCreated: 1444346412
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Box01
+    100002: Box02
+    100004: Box02_pivot
+    100006: Box03
+    100008: Box04
+    100010: Box04_pivot
+    100012: camera
+    100014: Circle01
+    100016: Circle02
+    100018: Circle03
+    100020: Circle04
+    100022: Cylinder01
+    100024: Cylinder012
+    100026: Cylinder02
+    100028: Cylinder02_pivot
+    100030: Cylinder03
+    100032: Cylinder03_pivot
+    100034: Cylinder04
+    100036: Cylinder05
+    100038: Group01
+    100040: Group02
+    100042: Group03
+    100044: Group04
+    100046: Helix01
+    100048: 'light #43'
+    100050: 'light #44'
+    100052: 'light #45'
+    100054: 'light #46'
+    100056: Line04
+    100058: Line04_pivot
+    100060: Line09
+    100062: Line09_pivot
+    100064: Object01
+    100066: Particle View 01
+    100068: Particle View 02
+    100070: Particle View 022
+    100072: Rectangle01
+    100074: Rectangle05
+    100076: Rectangle06
+    100078: //RootNode
+    100080: Sphere01
+    100082: Sphere02
+    100084: Sphere03
+    100086: Sphere04
+    100088: Sphere05
+    100090: VRayLight01
+    100092: VRayLight02
+    100094: VRayLight03
+    400000: Box01
+    400002: Box02
+    400004: Box02_pivot
+    400006: Box03
+    400008: Box04
+    400010: Box04_pivot
+    400012: camera
+    400014: Circle01
+    400016: Circle02
+    400018: Circle03
+    400020: Circle04
+    400022: Cylinder01
+    400024: Cylinder012
+    400026: Cylinder02
+    400028: Cylinder02_pivot
+    400030: Cylinder03
+    400032: Cylinder03_pivot
+    400034: Cylinder04
+    400036: Cylinder05
+    400038: Group01
+    400040: Group02
+    400042: Group03
+    400044: Group04
+    400046: Helix01
+    400048: 'light #43'
+    400050: 'light #44'
+    400052: 'light #45'
+    400054: 'light #46'
+    400056: Line04
+    400058: Line04_pivot
+    400060: Line09
+    400062: Line09_pivot
+    400064: Object01
+    400066: Particle View 01
+    400068: Particle View 02
+    400070: Particle View 022
+    400072: Rectangle01
+    400074: Rectangle05
+    400076: Rectangle06
+    400078: //RootNode
+    400080: Sphere01
+    400082: Sphere02
+    400084: Sphere03
+    400086: Sphere04
+    400088: Sphere05
+    400090: VRayLight01
+    400092: VRayLight02
+    400094: VRayLight03
+    2300000: Box01
+    2300002: Box02_pivot
+    2300004: Box03
+    2300006: Box04_pivot
+    2300008: Circle01
+    2300010: Circle02
+    2300012: Circle03
+    2300014: Circle04
+    2300016: Cylinder01
+    2300018: Cylinder012
+    2300020: Cylinder02_pivot
+    2300022: Cylinder03_pivot
+    2300024: Cylinder04
+    2300026: Cylinder05
+    2300028: Helix01
+    2300030: Line04_pivot
+    2300032: Line09_pivot
+    2300034: Object01
+    2300036: Rectangle01
+    2300038: Rectangle05
+    2300040: Rectangle06
+    2300042: Sphere01
+    2300044: Sphere02
+    2300046: Sphere03
+    2300048: Sphere04
+    2300050: Sphere05
+    3300000: Box01
+    3300002: Box02_pivot
+    3300004: Box03
+    3300006: Box04_pivot
+    3300008: Circle01
+    3300010: Circle02
+    3300012: Circle03
+    3300014: Circle04
+    3300016: Cylinder01
+    3300018: Cylinder012
+    3300020: Cylinder02_pivot
+    3300022: Cylinder03_pivot
+    3300024: Cylinder04
+    3300026: Cylinder05
+    3300028: Helix01
+    3300030: Line04_pivot
+    3300032: Line09_pivot
+    3300034: Object01
+    3300036: Rectangle01
+    3300038: Rectangle05
+    3300040: Rectangle06
+    3300042: Sphere01
+    3300044: Sphere02
+    3300046: Sphere03
+    3300048: Sphere04
+    3300050: Sphere05
+    4300000: Box03
+    4300002: Rectangle01
+    4300004: Circle01
+    4300006: Cylinder04
+    4300008: Sphere02
+    4300010: Sphere03
+    4300012: Rectangle05
+    4300014: Circle02
+    4300016: Sphere04
+    4300018: Sphere05
+    4300020: Circle03
+    4300022: Cylinder05
+    4300024: Rectangle06
+    4300026: Circle04
+    4300028: Box01
+    4300030: Sphere01
+    4300032: Cylinder02_pivot
+    4300034: Cylinder01
+    4300036: Object01
+    4300038: Cylinder012
+    4300040: Line04_pivot
+    4300042: Helix01
+    4300044: Box02_pivot
+    4300046: Line09_pivot
+    4300048: Box04_pivot
+    4300050: Cylinder03_pivot
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
