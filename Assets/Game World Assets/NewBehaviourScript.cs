@@ -13,6 +13,7 @@ public class NewBehaviourScript : MonoBehaviour {
 	public GameObject[] aliveEnemies;
 	public GameObject[] enemyList = new GameObject[4];
 	public GameObject darkEnemy;
+	public bool change = false;
 	private int enemyType;
 	public Transform temp;
 	public GameObject enemySpawn1;
@@ -108,7 +109,11 @@ public class NewBehaviourScript : MonoBehaviour {
         //if powerup is on
         else if (powerUp == true && powerAvailable == false && spawn == false)
         {
-			changeEnemyLight();
+			if (change == false)
+			{
+				changeEnemyLight();
+				change = true;
+			}
 			W03E04_ThrowingObjects.throwTimer = 0;
 			EnemySpawn.spawnTime = 0;
             //start the power timer
@@ -127,6 +132,7 @@ public class NewBehaviourScript : MonoBehaviour {
                 powerUp = false;
                 spawn = true;
                 powerAvailable = false;
+				change = false;
 				changeEnemyDark();
 				GameObject newEnemy = Instantiate(darkEnemy, enemySpawn1.transform.position, enemySpawn1.transform.rotation) as GameObject;
 				GameObject newEnemy1 = Instantiate(darkEnemy, enemySpawn2.transform.position, enemySpawn2.transform.rotation) as GameObject;
